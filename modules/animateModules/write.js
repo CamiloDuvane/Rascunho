@@ -1,5 +1,5 @@
 export default function initAnimaWrite() {
-    const text = "Bem vindo(a) ao meu portfólio!";
+    const text = "Bem vindo(a) as oficinas das edições CWD!";
     const welcomeMessage = document.getElementById("welcomeMessage");
     let index = 0;
     let isDeleting = false;
