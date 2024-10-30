@@ -1,0 +1,608 @@
+@media(max-width: 1260px) {
+    .detalhe{
+      display: none;
+    }
+    .link-social1{
+        margin-left:50px;
+       }
+    .link-social2 {
+        margin-left: 49px;
+       }
+    .cv {
+         margin-left: 50px;
+       }
+    .cv p {
+       
+         font-size: 14px;
+       }
+  }
+
+  @media(max-width: 1000px){
+    .projetos-texto{
+        font-size: 20px;
+    }
+    .sobre-texto{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    .habilidades-texto{
+        font-size: 20px;
+    }
+    .contato-titulo{
+        font-size: 20px;
+    }
+    .texto-social{
+        font-size: 20px;
+    }
+    #mensagem-form{
+        font-size: 20px;
+    }
+    #email-form{
+        font-size: 20px;
+    }
+    #nome-form{
+        font-size: 20px;
+    }
+    #label{
+        font-size: 20px;
+    }
+    .redes{
+        font-size: 23px;
+        text-align: center;
+        margin-bottom:2px ;
+    }
+    .form-contat{
+        align-items: center;
+        text-justify: center;
+    }
+    .projetos-cards{
+        gap: 20px;
+    }
+    .imgs-social{
+        top: 220px;
+    }
+    .conteudo h1{
+        font-size: 50px;
+    }
+  }
+
+  
+  @media(max-width: 800px){
+    .modal{
+        padding: 20px;
+        width: 50%;
+        height: 50%;
+    }
+    .modal h1{
+        font-size:1rem;
+    }
+    .modal p{
+        font-size: .8rem;
+    }
+    .projetos-texto{
+        font-size: 18px;
+    }
+    .projetos-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .projetos-texto::after{
+        width: 20px;
+        height: 10px;
+    }
+    .sobre-texto{
+        font-size: 18px;
+    }
+    .sobre-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .sobre-texto::after{
+        width: 20px;
+        height: 10px;
+    }
+    .habilidades-texto{
+        font-size: 18px;
+    }
+    .habilidades-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .habilidades-texto::after{
+        width: 20px;
+        height: 10px;
+    }
+    .contato-titulo{
+        font-size: 18px;
+    }
+    .texto-social{
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    #mensagem-form{
+        font-size: 18px;
+        margin: 10px;
+    }
+    #email-form{
+        font-size: 18px;
+        margin: 10px;
+    }
+    #nome-form{
+        font-size: 18px;
+        margin: 10px;
+    }
+    #label{
+        font-size: 18px;
+    }
+    .redes{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom:2px ;
+    }
+    .form-contat{
+        align-items: center;
+        text-justify: center;
+    }
+    .imgs-social {
+        position: absolute;
+        z-index: +1;
+        top: 200px;
+      }
+    .conteudo h1{
+        font-size: 40px;
+    }
+    .conteudo p{
+        font-size: 22px;
+    }
+    .projeto-img {
+        width: 150px;
+        margin: auto;
+      }
+    .projetos-cards{
+        gap: 20px;
+    }
+    .projetos{
+        margin: 0px;
+       grid-template-columns: 1fr 5fr;
+    }
+    .sobre{
+        grid-template-columns: 5fr 1fr;
+    }
+    .habilidades{
+        grid-template-columns: 1fr 5fr;
+    }
+    .header-menu{
+        gap:10px;
+    }
+    .header-menu a{
+        font-size: 16px;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .header-menu a:after {
+        content: "";
+        display: none;
+        height: 2px;
+        width: 0%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 4px;
+        transition: 0.5s;
+        position: absolute;
+      }
+      .header-menu a:hover:after {
+        width: 0%;
+      }
+      .header-menu a:hover {
+        font-size: 16px;
+      }
+      .conteudo p::before{
+        width: 20px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .conteudo p::after{
+        width: 20px;
+        height: 10px;
+        margin-left: 5px;
+    }
+    .techs img{
+        width: 30px;
+        height: 30px;
+    }
+  }
+
+  @media(max-width: 640px){
+
+    .header-menu a{
+        font-size: 14px;
+        gap: 10px;
+       
+    }
+    .header-menu{
+        top: 0px;
+        width: 120px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+    .header h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+    .header-menu a:hover {
+        font-size: 14px;
+      }
+    .imgs-social {
+        position: absolute;
+        z-index: +1;
+        top: 200px;
+      }
+    .conteudo p{
+        font-size: 16px;
+    }
+    .conteudo h1{
+        font-size: 30px;
+    }
+    .conteudo a{
+        font-size: 16px;
+        width: 80px;
+    }
+    .link-social1{
+        width: 30px;
+        margin-top: -55px;
+       }
+    .link-social2 {
+        margin-left: 49px;
+        width: 30px;
+       }
+    .cv {
+         margin-left: 50px;
+         width: 30px;
+         height: 30px;
+       }
+    .cv p {
+       
+         font-size: 12px;
+       }
+    .projeto-img{
+        width: 120px;
+        height: 70px;
+        padding: 0px;
+    }
+    .modal-container{
+        height: 60vh;
+    }
+    .subtitulo{
+        font-size: 5.5rem;
+    }
+    .subtitulo-sobre{
+        font-size: 5rem;
+    }
+    .projetos-texto{
+        font-size: 16px;
+    }
+    .sobre-texto{
+        font-size: 16px;
+    }
+    .habilidades-texto{
+        font-size: 16px;
+    }
+    .contato-titulo{
+        font-size: 16px;
+    }
+    .texto-social{
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    #mensagem-form{
+        font-size: 16px;
+    }
+    #email-form{
+        font-size: 16px;
+    }
+    #nome-form{
+        font-size: 16px;
+    }
+    label{
+        font-size: 16px;
+    }
+    .redes{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom:2px ;
+    }
+    .btn-contato{
+        font-size: 16px;
+        width: 80px;
+    }
+  }
+
+  @media(max-width: 550px){
+    .header-menu{
+        top: 0rem;
+    }
+    .header-menu a{
+        padding: 6px 12px;
+        border-radius: 4px;
+       font-size: 14px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .header h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .introducao{
+        display: flex;
+        flex-direction: column;
+    }
+    .foto{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .conteudo p{
+        font-size: 20px;
+    }
+    .conteudo h1{
+        font-size: 40px;
+    }
+    .imgs-social {
+        position: absolute;
+        z-index: +1;
+        top: 200px;
+      }
+      .link-social1{
+        margin-top: -20px;
+        width: 35px;
+        margin-left: 20px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+       }
+    .link-social2 {
+        margin-left: 19px;
+        width: 35px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+       }
+    .cv {
+         margin-left: 20px;
+         width: 35px;
+         height: 35px;
+         border-radius: 50%;
+         border: 2px solid rgb(255, 255, 255);
+       }
+      .projetos-cards{
+        justify-content: center;
+      }
+      .habilidades-cards{
+        justify-content: center;
+
+      }
+      .btn-contato{
+        padding: 8px 16px;
+        font-size: 18px;
+      }
+      .introducao {
+        background-image: url(./imagens/ceu.jpeg);
+        background-size:cover;
+        animation: moveBackground 60s linear infinite;
+         }
+         @keyframes moveBackground {
+          from{
+              background-position: 0 0;
+          }
+          to{
+              background-position: 100% 0;
+          }
+         }
+      /*footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        margin-top: 10px;
+      }
+      */
+      
+
+    @media(max-width: 460px){
+        .introducao{
+            height: 90vh;
+            margin: auto;
+        }
+        .foto{
+        width: 90%;
+        margin-top: 40px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        border-bottom: 5px solid #ffffff;
+        }
+         .techs{
+            display:flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
+        .techs img{
+            margin-top: 40px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 255, 255);
+        }
+        .header-menu a{
+            padding: 5px 10px;
+            border-radius: 4px;
+           font-size: 12px;
+        }
+        .conteudo h1{
+            font-size: 2.5rem;
+            
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 2px black;
+            font-family: "Montserrat Subrayada", sans-serif;
+        }
+        .conteudo p{
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+            color: white;
+            text-shadow: 2px 2px 2px black;
+        }
+        .header{
+            gap: 5px;
+        }
+        .projeto-img{
+            max-width: 150px;
+        }
+        .projetos-cards{
+            width: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+           margin: 0 auto;
+        }
+        .card {
+            width: 200px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px black;
+          }
+        .botao{
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+        .subtitulo{
+            font-size: 4rem;
+        }
+        .subtitulo-sobre{
+            font-size: 3.5rem;
+        }
+        .habilidades-cards{
+            width: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0 auto;
+           }
+        .conteudo p::after{
+            width: 20px;
+            height: 8px;
+        }
+        .conteudo p::before{
+            width: 20px;
+            height: 8px;
+        }
+        .projetos-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .projetos-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+        .sobre-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .sobre-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+        .habilidade-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .habilidade-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+        .conteudo a {
+            padding: 15px 25px;
+            text-align: center;
+            display: block;
+            width: 150px;
+            font-size: 22px;
+            border-radius: 4px;
+            font-weight: 700px;
+          }
+
+    }
+    .projetos-cards{
+        gap: 10px;
+    }
+  }
+
+  @media(max-width: 350px){
+    .header-menu{
+        top: 0px;
+        width: 120px;
+    }
+    .header-menu a{
+        padding: 4px 9px;
+        border-radius: 4px;
+       font-size: 14px;
+    }
+    .header{
+        gap: 3px;
+    }
+    .projeto-img{
+        max-width: 100px;
+    }
+    .projetos-cards{
+        width: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    .botao{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .subtitulo{
+        font-size: 4rem;
+    }
+    .subtitulo-sobre{
+        font-size: 3.5rem;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+    .conteudo h1 {
+        font-size: 28px;
+    }
+    .conteudo p{
+        font-size: 16px;
+    }
+    .techs img{
+        width: 25px;
+        height: 25px;
+    }
+    .projetos-cards{
+        gap: 2px;
+    }
+   *::after{
+    display: none;
+   }
+   *::before{
+    display: none;
+   }
+   
+   
+}

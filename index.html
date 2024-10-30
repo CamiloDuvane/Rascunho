@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Desenvolvedor Front End localizado em São Paulo">
+
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivo.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Lobster&family=Montserrat+Subrayada:wght@400;700&family=Spicy+Rice&display=swap');
+    </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Evandro Lima</h1>
+    <nav>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="header-menu js-menu" data-menu="list">
+        <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#Sobre">Sobre</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+           <li><a href="#Contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+      <div class="imgs-social js-scroll">
+        <a href="https://www.linkedin.com/in/evandro-de-jesus-lima-600557174?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="link-social1" title="Linkedln" src="./imagens/linkenlft.png" alt="/linkedin-logo-linkedin-icon-transparent-free-png.png" ></a>
+        <a href="https://github.com/evandrolima7"><img class="link-social2"  title="GitHub" src="./imagens/Github-PNG-Image.png" alt="/icone-github-bleu.png"></a>
+        <div  title="Curriculo" class="cv">
+          <p>CV</p>
+        </div>
+      </div>
+  <main class="introducao js-scroll">
+    <img class="foto" src="./imagens/euperfil.jpg" alt="foto perfil">
+    <div class="conteudo">
+      <span class="detalhe"><img src="./imagens/1708424047520.png" alt="/1708399950281.png"></span>
+      <h1>Desenvolvedor<br> Front End</h1>
+      <p id="welcomeMessage" class="typing"></p>
+      <a class="botaoSobre" href="#Sobre">Sobre mim</a>
+      <div class="techs">
+        <img src="./imagens/css.png" alt="">
+        <img src="./imagens/js.png" alt="">
+        <img src="./imagens/ts.jpg" alt="">
+        <img src="./imagens/react.png" alt="">
+        <img src="./imagens/angular.png" alt="">
+      </div>
+    </div>
+  </main>
+  
+  <section class="projetos js-scroll" id="Projetos" aria-label="projetos">
+      <h2 class="subtitulo">P<br>R<br>O<br>J<br>E<br>T<br>O<br>S</h2>
+      <div>
+        <p class="projetos-texto">Estes projetos representam minha experiência diversificada como programador front-end, demonstrando minha proficiência em tecnologias como <strong>HTML, CSS, JavaScript, React e Angular.</strong> Cada projeto reflete meu comprometimento com a qualidade e inovação no desenvolvimento web</p>
+          
+      <div class="projetos-cards">
+      <div class="card js-cards">
+              
+
+        <h3 class="projeto-titulo">Good Food - Restaurante</h3>
+        <img class="projeto-img" src="./imagens/foto1.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto1"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/restaurante-good-food/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/restaurante-good-food">Ver Código</a></button>
+      </div>
+          
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Portfolio 2.0</h3>
+        <img class="projeto-img" src="./imagens/portfolio.jpeg.jpeg" alt="fotoProjeto1">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto2"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href=" https://evandrolima7.github.io/Portfolio2.0/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/Portfolio2.0">Ver Código</a></button>
+      
+      </div>
+            
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Rick E Morty</h3>
+        <img class="projeto-img" src="./imagens/foto3.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto3"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/personagens-de-rick-e-morty/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/personagens-de-rick-e-morty">Ver Código</a></button>
+      
+      </div>
+              
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">To-do-list React</h3>
+        <img class="projeto-img" src="./imagens/to-do-list.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto4"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="http://gerenciadordetarefas.s3-website-sa-east-1.amazonaws.com/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/gerenciador-de-tarefas">Ver Código</a></button>
+      
+      </div>
+                  
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">All Estoque</h3>
+        <img class="projeto-img" src="./imagens/allestoque.jpeg.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto5"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/gerenciamento-de-estoque/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/gerenciamento-de-estoque">Ver Código</a></button>
+      
+      </div>
+                  
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Aprendendo Inglês</h3>
+        <img class="projeto-img" src="./imagens/foto6.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto6"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="http://app1-teste-publicacao-789.s3-website-sa-east-1.amazonaws.com ">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/mini-game-aprendendo-ingles">Ver Código</a></button>
+      </div>
+                              
+              
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Creator Button</h3>
+        <img class="projeto-img" src="./imagens/creator-button.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto7"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/creator-button/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/creator-button">Ver Código</a></button>
+                  
+      </div>
+                              
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Calcule IMC</h3>
+        <img class="projeto-img" src="./imagens/imc.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto8"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/Site_Calculo_de_IMC/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/Site_Calculo_de_IMC">Ver Código</a></button>
+                  
+      </div>
+                              
+      <div class="card js-cards">
+        <h3 class="projeto-titulo">Android</h3>
+        <img class="projeto-img" src="./imagens/curiosidades.jpeg" alt="fotoProjeto">
+        <p class="projeto-descricao"><a href="#" class="link-descricao" data-modal="abrir" data-target="#projeto9"> Descrição completa do projeto...</a></p>
+        <button class="botao"><a href="https://evandrolima7.github.io/landing-page-curiodidades-android/">Ver Website</a></button>
+        <button class="botao"><a href="https://github.com/evandrolima7/landing-page-curiodidades-android">Ver Código</a></button>
+                  
+      </div>                     
+    </div>
+          
+  </section>
+  
+  <section id="Sobre" class="sobre js-scroll">
+    
+    <div>
+      <p class="sobre-texto">
+      
+      Olá! Sou um desenvolvedor front-end em transição de carreira, atualmente cursando graduação em <strong>Análise e Desenvolvimento de Sistemas</strong>, com previsão de <strong>formatura em 2025</strong>, estudo programação há mais de um ano. Estou empolgado para compartilhar minha jornada e experiência com você. Comecei a criar uma base de páginas web com <strong>HTML</strong> e <strong>CSS</strong> , e rapidamente me aprofundei em estilos avançados usando <strong>Sass</strong> , <strong>Bootstrap</strong> e <strong>Tailwind CSS</strong>. Adoro transformar ideias em designs visualmente atraentes e amigáveis ​​para o usuário.<br><br>
+      
+      Minha paixão por criar experiências interativas me levou a aprender <strong>JavaScript</strong> e <strong>TypeScript</strong> . Agora posso adicionar funcionalidades incríveis às páginas da web. Trabalhei com <strong>Angular</strong> e <strong>React</strong> para construir aplicativos web mais complexos e envolventes. O que me motiva é a busca pela excelência em cada projeto. Além disso, estou sempre ansioso para aprender e colaborar com equipes talentosas<br><br>
+      
+      Se você procura um <strong>desenvolvedor front-end</strong> dedicado, apaixonado por criar interfaces incríveis e prontas para fazer parte do seu tempo, estou à disposição para contribuir com meu conhecimento e habilidades</p>
+       <a class="btn-contato js-btn-contato" href="#Contato">Entre Em Contato</a>
+    </div>
+    <div class="subtitulo-sobre">
+        <h2>S<br>o<br>b<br>r<br>e<br></h2>
+      </div>
+  </section>
+  
+  
+    <section class="habilidades js-scroll" id="Habilidades">
+    <h2 class="subtitulo">H<br>A<br>B<br>I<br>L<br>I<br>D<br>A<br>D<br>E<br>S</h2>
+    <div>
+    <p class="habilidades-texto">Sou um profissional dedicado e apaixonado por desenvolvimento front-end, buscando constantemente a excelência na entrega de experiências digitais envolventes. Minha abordagem combina criatividade e precisão técnica para criar interfaces intuitivas e visualmente impactantes. Abaixo, destaco algumas das tecnologias que domino para transformar conceitos em realidade</p>
+    
+    <div class="habilidades-cards">
+      <div class="card-habilidades js-card-habilidade">
+        
+
+      <h3 class="projeto-titulo">HTML 5</h3>
+      <img class="projeto-img-h" src="./imagens/html.jpg" alt="fotoProjeto">
+      <p class="projeto-descricao">Utilizo HTML para criar a estrutura fundamental de páginas web, definindo sua semântica e organização</p>
+      
+      </div>
+       <div class="card-habilidades js-card-habilidade">
+         
+      <h3 class="projeto-titulo">CSS</h3>
+      <img class="projeto-img-h" src="./imagens/css.jpg" alt="fotoProjeto">
+      <p class="projeto-descricao">Domino CSS para estilizar e dar vida às páginas web, tornando-o visualmente atraente e responsivo.</p>
+      
+ 
+       </div>
+       
+    <div class="card-habilidades js-card-habilidade">
+          <h3 class="projeto-titulo">JavaScript</h3>
+          <img class="projeto-img-h" src="./imagens/jv.jpg" alt="fotoProjeto">
+          <p class="projeto-descricao">Tenho experiência em JavaScript para adicionar interatividade dinâmica e funcionalidade avançada às aplicações web.</p>
+
+ 
+    </div>
+        
+            <div class="card-habilidades js-card-habilidade">
+              <h3 class="projeto-titulo">Bootstrap</h3>
+              <img class="projeto-img-h" src="./imagens/boot.jpg" alt="fotoProjeto">
+              <p class="projeto-descricao">Utilize o Bootstrap para agilizar o desenvolvimento, aproveitando seu conjunto de componentes e estilos pré-construídos.</p>
+           
+ 
+            </div>
+            
+            <div class="card-habilidades js-card-habilidade">
+                          <h3 class="projeto-titulo">Tailwind</h3>
+                          <img class="projeto-img-h" src="./imagens/tail.jpg" alt="fotoProjeto">
+                          <p class="projeto-descricao">Trabalho com o Tailwind CSS para criar designs personalizados de forma eficiente, com uma abordagem baseada em classes.</p>
+
+ 
+                        </div>
+             
+                         <div class="card-habilidades js-card-habilidade">
+                           <h3 class="projeto-titulo">SASS</h3>
+                           <img class="projeto-img-h" src="./imagens/sass.jpg" alt="fotoProjeto">
+                           <p class="projeto-descricao">Faça uso do Sass para uma escrita CSS mais organizada e reutilizável, aproveitando variáveis ​​e mixins.s</p>
+             
+       
+                         </div>
+                         
+                         
+                          <div class="card-habilidades js-card-habilidade">
+                            <h3 class="projeto-titulo">TypeScript</h3>
+                            <img class="projeto-img-h" src="./imagens/ts.jpg" alt="fotoProjeto">
+                            <p class="projeto-descricao">Desenvolvo com TypeScript para adicionar tipagem estática ao JavaScript, melhorando a robustez e a manutenção do código.</p>
+                        
+                          </div>
+                          
+                          
+                          
+                           <div class="card-habilidades js-card-habilidade">
+                             <h3 class="projeto-titulo">REACT</h3>
+                             <img class="projeto-img-h" src="./imagens/react.jpg" alt="fotoProjeto">
+                             <p class="projeto-descricao">Desenvolvo com o React para criar interfaces de usuário reativas e eficientes, seguindo uma abordagem baseada em componentes.</p>
+                            
+                          
+                           </div>
+
+                           <div class="card-habilidades js-card-habilidade">
+                            <h3 class="projeto-titulo">ANGULAR</h3>
+                            <img class="projeto-img-h" src="./imagens/angular.jpg" alt="fotoProjeto">
+                            <p class="projeto-descricao">Desenvolvo com o Angular para criar aplicações web rosbustas e escalaveis, utilizando arquitetura baseada em componentes e boas práticas de desenvolvimento frontend.</p>
+                           
+                         
+                          </div>
+    </div>
+    
+  </section>
+  
+  
+  
+  <section id="Contato" class="sobre js-scroll">
+   
+    <div class="container js-formulario">
+      <h1 class="form-contat">Formulário de contato</h1>
+      
+       <h2 class="contato-titulo">Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo e entrarei em contato com você o mais breve possível</h2>
+       
+       <form action="https://formsubmit.co/evandrodejesuslima@gmail.com" method="POST">
+         <label for="name">Nome: </label>
+         <input type="text" name="nome" id="nome-form" placeholder="digite o seu nome" />
+         <label for="Email">Email:</label>
+         <input type="email" name="email" id="email-form"placeholder="digite seu email">
+         <label for="mensagem">Mensagem: </label>
+         <textarea  name="mensagem" id="mensagem-form" placeholder="escreva sua mensagem" rows="4"></textarea>
+         <div class="btn-enviar">
+            <input class="submit" type="submit" value="Enviar">
+         </div>
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
+
+
+       </form>
+       <h2 class="form-contat">Social</h2>
+       <p class="texto-social">Conecte-se comigo nas redes sociais para acompanhar atualizações, insights e projetos em andamento.</p>
+       <span class="redes"><a href="https://www.linkedin.com/in/evandro-de-jesus-lima-600557174?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">✓LinkedIn</a></span>
+              <span class="redes"><a href="https://github.com/evandrolima7">✓GitHub</a></span>
+                     <span class="redes"><a href="https://wa.me/qr/YBSUEI5IX5XBD1">✓WhatsApp</a></span>
+    </div>
+    <div class="subtitulo-sobre">
+        <h2>C<br>O<br>N<br>T<br>A<br>T<br>O</h2>
+      </div>
+  </section>
+ 
+ 
+  
+  <script type="module" src="script.js"></script>
+  <footer>
+    <p>Criado por Evandro de Jesus Lima, <br> alguns direitos reservados.</p>
+  </footer>
+
+  <section class="modal-container" id="projeto1" data-modal="container">
+    <div class="modal">
+      <h1>Good Food - Restaurante</h1>
+      <p>Um site de restaurante desenvolvido para fins de estudo, utilizando HTML, CSS, JavaScript e Bootstrap. O projeto foi criado com foco em responsividade e experiência do usuário, apresentando as seções de cardápio, agendamento de reservas e informações sobre o restaurante. Inclui animações suaves, formulário de contato e integração com o WhatsApp para pedidos.
+      </p>
+      
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto2">
+    <div class="modal">
+      <h1>Portfolio 2.0</h1>
+      <p>Aplicação de meu portfolio pessoal, nele eu destaco os meus projetos e minha habilidade em desenvolvimento web. Meu portfolio reflete as informações mais relevantes sobre mim, pude aplicar meu conhecimento em designer, animacoes e estilos, espero que você goste do meu portfolio.
+      </p>
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto3">
+    <div class="modal">
+      <h1>Titulo Projeto 3</h1>
+      <p>Aplicação web feita com JavaScript que consome a API do Rick and Morty, exibindo informações dos personagens da série como nomes, imagens e status. O projeto utiliza técnicas de requisição assíncrona (fetch API) para carregar os dados em tempo real, proporcionando uma experiência interativa para os fãs da série.
+      </p>
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto4">
+    <div class="modal">
+      <h1>To-do-list React</h1>
+      <p>Um aplicativo de lista de tarefas simples e intuitivo, desenvolvido com HTML, CSS e JavaScript. O usuário pode adicionar, editar e remover tarefas, permitindo uma gestão eficiente das atividades diárias. O projeto inclui funcionalidades como a persistência das tarefas no armazenamento local do navegador, garantindo que as informações sejam mantidas mesmo após a recarga da página. A interface é responsiva e otimizada para diferentes dispositivos, proporcionando uma experiência de usuário agradável.
+
+        Tecnologias: HTML, CSS, JavaScript, LocalStorage
+      </p>
+    
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto5">
+    <div class="modal">
+      <h1>Controle De Estoque</h1>
+      <p>Aplicação web desenvolvida em JavaScript para gerenciar produtos e preços, voltada para pequenas empresas. O sistema permite cadastrar, editar e excluir produtos, com formatação de valores em Real brasileiro. Oferece uma interface intuitiva para facilitar o controle de estoque de forma simples e eficiente.
+      </p>
+   
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto6">
+    <div class="modal">
+      <h1>Apredendo Inglês</h1>
+      <p>Jogo educativo desenvolvido com HTML, CSS, JavaScript, TypeScript e Angular, focado no aprendizado de inglês. O usuário valida frases corretamente para avançar no jogo, tornando o processo de aprendizado mais interativo e divertido. Ideal para praticar o idioma de forma leve e envolvente.
+      </p>
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto7">
+    <div class="modal">
+      <h1>Creator button</h1>
+      <p>Ferramenta web simples para gerar botões personalizados com diferentes estilos de design. O usuário pode ajustar propriedades como cor, tamanho, borda, e sombra, visualizando as mudanças em tempo real e copiando o código CSS gerado. Ideal para desenvolvedores que desejam criar botões personalizados de forma rápida e prática.
+
+        Tecnologias: HTML, CSS, JavaScript
+      </p>
+      
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto8">
+    <div class="modal">
+      <h1>Calcule IMC</h1>
+      <p>Aplicação web que permite calcular o Índice de Massa Corporal (IMC) de forma rápida e simples. O usuário insere seu peso e altura, e a ferramenta exibe o valor do IMC junto com uma classificação baseada nas faixas de peso (abaixo do peso, peso normal, sobrepeso, etc.). A interface é responsiva, garantindo uma boa experiência em dispositivos móveis e desktops.
+
+        Tecnologias: HTML, CSS, JavaScript
+      </p>
+      
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container" id="projeto9">
+    <div class="modal">
+      <h1>Curiodidades Android</h1>
+      <p>Uma landing page informativa que apresenta curiosidades e fatos interessantes sobre o sistema operacional Android. O design é moderno e responsivo, com seções que detalham a história, evolução, e versões do Android. Ideal para entusiastas de tecnologia que querem aprender mais sobre o sistema que domina o mercado mobile.
+
+        Tecnologias: HTML, CSS, JavaScript
+      </p>
+      
+      <button class="fechar">X</button>
+    </div>
+  </section>
+
+</body>
+
+</html>
